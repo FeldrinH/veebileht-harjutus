@@ -12,6 +12,13 @@
             text-align: center;
         }
 
+        h2 {
+            font-family: "Charcoal", sans-serif;
+            font-size: 2.5rem;
+            color: darkblue;
+            text-align: center;
+        }
+
         .text-container {
             font-family: "Verdana", "Geneva", sans-serif;
             padding-left: 20px;
@@ -19,6 +26,11 @@
             font-size: 1.5rem;
             text-align: justify;
             background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/04/6-rough-seamless-recycled-vintage-paper-texture-1.jpg");
+        }
+
+        .col {
+            float: left;
+            width: 50%;
         }
 
         .img-container {
@@ -32,7 +44,7 @@
 </head>
 
 <body class="text-container">
-    <div>
+    <div class=col>
         <h1>Universaaltõestus</h1>
         <p>
             Universaaltõestus on tõestus, mida saab rakendada kõigile tõestamisülesannetele mis esinevad Matemaatilise
@@ -47,11 +59,11 @@
         <p>
             Võrdleva analüüsi universaaltõestuse ja tavaliste tõestuste vahel leiab <a href="teine.html">siit</a>.
         </p>
+        <div class="img-container">
+            <img src="http://www.sciencecartoonsplus.com/gallery/math/math07.gif" alt="Naljakas koomiks matemaatika kohta">
+        </div>
     </div>
-    <div class="img-container">
-        <img src="http://www.sciencecartoonsplus.com/gallery/math/math07.gif" alt="Naljakas koomiks matemaatika kohta">
-    </div>
-    <div>
+    <div class="col">
         <h2>Tõestuse ülesehitus</h2>
         <ol>
             <li>Olgu antud väide, ning olgu töökäsk tõestada antud väide</li>
