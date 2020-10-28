@@ -1,0 +1,54 @@
+h1 {
+    font-family: "Charcoal", sans-serif;
+    font-size: 5rem;
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Charcoal", sans-serif;
+    font-size: 2.5rem;
+    color: darkblue;
+    text-align: center;
+}
+
+.text-container {
+    font-family: "Verdana", "Geneva", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    text-align: justify;
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/04/6-rough-seamless-recycled-vintage-paper-texture-1.jpg");
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 50%;
+}
+
+.img-container {
+    text-align: center;
+}
+
+img {
+    border: 20px outset brown;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 3px ridge gold;
+    text-align: center;
+}
+
+td:first-child {
+    text-align: left;
+    font-size: 1.5rem;
+}
