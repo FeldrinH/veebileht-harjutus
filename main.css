@@ -25,9 +25,12 @@ h2 {
     text-align: center;
 }
 
+.col-container {
+    display: flex;
+}
+
 .col {
-    float: left;
-    width: 50%;
+    flex: 50%;
 }
 
 .img-container {
